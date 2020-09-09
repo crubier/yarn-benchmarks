@@ -1,0 +1,16 @@
+{
+  "name": "pkg-1-5",
+  "devDependencies": {
+    "pkg-dev-1": "workspace:packages/pkg-dev-1",
+    "pkg-dev-2": "workspace:packages/pkg-dev-2",
+    "pkg-dev-3": "workspace:packages/pkg-dev-3",
+    "pkg-dev-4": "workspace:packages/pkg-dev-4",
+    "pkg-dev-5": "workspace:packages/pkg-dev-5",
+    "pkg-dev-6": "workspace:packages/pkg-dev-6",
+    "typescript": "^4.0.2"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*"
+  }
+}
