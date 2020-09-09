@@ -108,3 +108,8 @@ single-berry/.yarn/build-state.yml
 single-berry/.yarn/install-state.gz
 single-npm/storybook-static
 single-yarn/storybook-static
+single-berry-no-pnp/.yarn/cache
+single-berry-no-pnp/storybook-static
+.DS_Store
+single-berry-no-pnp/.yarn/build-state.yml
+single-berry-no-pnp/.yarn/install-state.gz
