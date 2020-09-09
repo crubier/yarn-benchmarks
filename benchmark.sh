@@ -2,7 +2,7 @@
 
 echo "========================================================================================"
 
-cd foobar-berry
+cd single-berry
 echo "berry"
 echo ""
 time (yarn install > /dev/null 2>&1 && echo "install ok" || echo "install fail")
@@ -17,7 +17,7 @@ cd ..
 
 echo "========================================================================================"
 
-cd foobar-yarn
+cd single-yarn
 echo "yarn"
 echo ""
 time (yarn install > /dev/null 2>&1 && echo "install ok" || echo "install fail")
@@ -32,7 +32,7 @@ cd ..
 
 echo "========================================================================================"
 
-cd foobar-npm
+cd single-npm
 echo "npm"
 echo ""
 time (npm install > /dev/null 2>&1 && echo "install ok" || echo "install fail")
