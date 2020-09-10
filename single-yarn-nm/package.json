@@ -15,8 +15,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "storybook": "start-storybook --no-dll --port 6006 --static-dir public",
+    "build-storybook": "build-storybook --no-dll --static-dir public"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -45,6 +45,7 @@
     "@storybook/react": "^6.0.21",
     "babel-loader": "^8.1.0",
     "prop-types": "^15.7.2",
-    "react-is": "^16.13.1"
+    "react-is": "^16.13.1",
+    "webpack-bundle-analyzer": "^3.8.0"
   }
 }
